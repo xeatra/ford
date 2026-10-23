@@ -1,0 +1,41 @@
+/* =====================================================================
+   Sales Partner Ford — Design tokens (Sales Partner Dealer WebKit)
+   Ford C&I as seen on ford.ro (2026): new Ford Blue #1700F4, white header
+   with the blue oval, light grey #F1F1F1 surfaces, dark #2E2E2E text,
+   pill buttons. Ford Antenna (proprietary) is replaced by Inter (OFL).
+   ===================================================================== */
+:root {
+  --bg:        #FFFFFF;
+  --bg-2:      #F1F1F1;   /* Ford light grey */
+  --bg-3:      #E6E6EB;
+  --ink:       #1700F4;   /* new Ford Blue — primary buttons, links */
+  --ink-2:     #00095B;   /* Ford heritage navy — dark bands */
+  --text:      #2E2E2E;
+  --mute:      #626469;
+  --line:      #D8D8DC;
+  --night:     #00095B;   /* footer / dark bands */
+  --night-2:   #101A6B;
+  --on-night:  #FFFFFF;
+  --sky:       #066FEF;   /* Ford link blue */
+  --promo:     #D62D14;   /* promo accent (sparingly) */
+  --accent:    var(--ink);
+  --ok:        #008200;
+  --warn:      #BA4E00;
+  --err:       #D62D14;
+
+  --f-display: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+  --f-body:    'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+  --f-mono:    'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+
+  --fs-xs: .75rem; --fs-sm: .875rem; --fs-md: 1rem; --fs-lg: 1.125rem;
+  --fs-xl: clamp(1.2rem, 1.1rem + .4vw, 1.4rem);
+  --fs-h3: clamp(1.35rem, 1.2rem + .8vw, 1.8rem);
+  --fs-h2: clamp(1.8rem, 1.35rem + 1.8vw, 2.6rem);
+  --fs-h1: clamp(2.1rem, 1.5rem + 2.8vw, 3.6rem);
+
+  --r-sm: 8px; --r-md: 12px; --r-lg: 16px; --r-pill: 999px;
+  --container: 1320px; --header-h: 72px;
+  --shadow: 0 1px 2px rgba(0,9,91,.05), 0 14px 34px -14px rgba(0,9,91,.22);
+  --ease: cubic-bezier(.2,.7,.2,1);
+  color-scheme: light;
+}
